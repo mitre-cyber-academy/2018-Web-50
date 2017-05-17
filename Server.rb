@@ -124,40 +124,232 @@ get '/customers' do
   if num.eql? 1
     '<title>Customers</title>
 Here is a random selection of usernames from our customer base:<br>
-Slim_Shady<br>
-Pilkington<br>
-The_Real_Slim_Shady<br>
-Lord_of_the_Beetles<br>
-Mr._Mister<br>
-H@X0R<br>
-Actual_Slim_Shady<br>
-2B_or_!2B
+<a href="/customers/Slim_Shady">Slim_Shady</a><br>
+<a href="/customers/Pilkington">Pilkington</a><br>
+<a href="/customers/The_Real_Slim_Shady">The_Real_Slim_Shady</a><br>
+<a href="/customers/Lord_of_the_Beetles">Lord_of_the_Beetles</a><br>
+<a href="/customers/Mr._Mister">Mr._Mister</a><br>
+<a href="/customers/H@X0R">H@X0R</a><br>
+<a href="/customers/Actual_Slim_Shady">Actual_Slim_Shady</a><br>
+<a href="/customers/2B_or_!2B">2B_or_!2B</a>
 <br>You can return to the home page <a href="/home">here</a>.'
   elsif num.eql? 2
     '<title>Customers</title>
 Here is a random selection of usernames from our customer base:<br>
-BaconLover<br>
-Kratos<br>
-Beets-or-Beats<br>
-BohemianRhapsody<br>
-Robotico<br>
-Nier<br>
-MnM<br>
-The_Real_Slim_Shady_782
+<a href="/customers/BaconLover">BaconLover</a><br>
+<a href="/customers/Kratos">Kratos</a><br>
+<a href="/customers/Beets-or-Beats">Beets-or-Beats</a><br>
+<a href="/customers/BohemianRhapsody">BohemianRhapsody</a><br>
+<a href="/customers/Robotico">Robotico</a><br>
+<a href="/customers/Nier">Nier</a><br>
+<a href="/customers/MnM">MnM</a><br>
+<a href="/customers/The_Real_Slim_Shady_782">The_Real_Slim_Shady_782</a>
 <br>You can return to the home page <a href="/home">here</a>.'
   else
     '<title>Customers</title>
 Here is a random selection of usernames from our customer base:<br>
-THE_LIGHT<br>
-kMrIGlqQGYXU<br>
-Batman<br>
-MarshallMathers<br>
-grassyKnoll<br>
-donutsAreGr8<br>
-11<br>
-RapGod
+<a href="/customers/THE_LIGHT">THE_LIGHT</a><br>
+<a href="/customers/kMrIGlqQGYXU">kMrIGlqQGYXU</a><br>
+<a href="/customers/Batman">Batman</a><br>
+<a href="/customers/MarshallMathers">MarshallMathers</a><br>
+<a href="/customers/grassyKnoll">grassyKnoll</a><br>
+<a href="/customers/donutsAreGr8">donutsAreGr8</a><br>
+<a href="/customers/11">11</a><br>
+<a href="/customers/RapGod">RapGod</a>
 <br>You can return to the home page <a href="/home">here</a>.'
   end
+end
+
+get '/customers/Slim_Shady' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/Pilkington' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/The_Real_Slim_Shady' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/Lord_of_the_Beetles' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/Mr._Mister' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/H@X0R' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/Actual_Slim_Shady' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/2B_or_!2B' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/BaconLover' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/Kratos' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/Beets-or-Beats' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/BohemianRhapsody' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/Robotico' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/Nier' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/MnM' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/The_Real_Slim_Shady_782' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/THE_LIGHT' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/kMrIGlqQGYXU' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/Batman' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/MarshallMathers' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/grassyKnoll' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/donutsAreGr8' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/11' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
+end
+
+get '/customers/RapGod' do
+  '<title>User Bio</title>
+<h3>Name</h3>
+<h3>Hobbies</h3>
+<h3>Email</h3>
+'
 end
 
 post '/login' do
