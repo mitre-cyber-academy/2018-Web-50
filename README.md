@@ -6,4 +6,4 @@ Premier Express Items can be ordered by submitting an email address without havi
 ## Solution ##
 
 The flag (MCA{aCzb163wL9}) is found when submitting eminem@gmail.com through /products/dandelions.
-Although Eminem is not listed as a user, there are 7 overt references to him.
+The email can be found at /customers/grassyKnoll.

@@ -162,193 +162,289 @@ end
 
 get '/customers/Slim_Shady' do
   '<title>User Bio</title>
+<h2>Slim_Shady</h2>
 <h3>Name</h3>
+Bilbo Baggins
 <h3>Hobbies</h3>
+Sneaking, trying on rings, and hanging out with Sam
 <h3>Email</h3>
+BB@hobb.it
 '
 end
 
 get '/customers/Pilkington' do
   '<title>User Bio</title>
+<h2>Pilkington</h2>
 <h3>Name</h3>
+Karl
 <h3>Hobbies</h3>
+Not going to other countries, not eating new food, and not talking to Ricky
 <h3>Email</h3>
+unenthusiasticGlobetrotter@gmail.com
 '
 end
 
 get '/customers/The_Real_Slim_Shady' do
   '<title>User Bio</title>
+<h2>The_Real_Slim_Shady</h2>
 <h3>Name</h3>
+Frank Abernathy
 <h3>Hobbies</h3>
+Listening to classical music and yelling at kids to get off my lawn
 <h3>Email</h3>
+Unknown
 '
 end
 
 get '/customers/Lord_of_the_Beetles' do
   '<title>User Bio</title>
+<h2>Lord_of_the_Beetles</h2>
 <h3>Name</h3>
+Piggy
 <h3>Hobbies</h3>
+Reading and running away from choir boys
 <h3>Email</h3>
+Unknown
 '
 end
 
 get '/customers/Mr._Mister' do
   '<title>User Bio</title>
+<h2>Mr._Mister</h2>
 <h3>Name</h3>
+Sir
 <h3>Hobbies</h3>
+Being rich, spending money, and making money
 <h3>Email</h3>
+Mr@$$.rich
 '
 end
 
 get '/customers/H@X0R' do
   '<title>User Bio</title>
+<h2>H@X0R</h2>
 <h3>Name</h3>
+Steve
 <h3>Hobbies</h3>
+Haxing nwbs, pwning nwbs, wreking nwbs, and trashing nwbs
 <h3>Email</h3>
+SteveSmith@hotmail.com
 '
 end
 
 get '/customers/Actual_Slim_Shady' do
   '<title>User Bio</title>
+<h2>Actual_Slim_Shady</h2>
 <h3>Name</h3>
+Dr. Dre
 <h3>Hobbies</h3>
+Rapping, producing, and making beats
 <h3>Email</h3>
+Dre@r.ap
 '
 end
 
 get '/customers/2B_or_!2B' do
   '<title>User Bio</title>
+<h2>2B_or_!2B</h2>
 <h3>Name</h3>
+9S
 <h3>Hobbies</h3>
+Destroying machines, admiring 2B, and reporting to Command
 <h3>Email</h3>
+9S@android.net
 '
 end
 
 get '/customers/BaconLover' do
   '<title>User Bio</title>
+<h2>BaconLover</h2>
 <h3>Name</h3>
+Ralph
 <h3>Hobbies</h3>
+Blowing conch shells, starting fires, and having fun
 <h3>Email</h3>
+leader@stranded.co.uk
 '
 end
 
 get '/customers/Kratos' do
   '<title>User Bio</title>
+<h2>Kratos</h2>
 <h3>Name</h3>
+Spartan #1247
 <h3>Hobbies</h3>
+Vengeance
 <h3>Email</h3>
+Ares@olympus.gr
 '
 end
 
 get '/customers/Beets-or-Beats' do
   '<title>User Bio</title>
+<h2>Beets-or-Beats</h2>
 <h3>Name</h3>
+Unknown
 <h3>Hobbies</h3>
+Unknown
 <h3>Email</h3>
+Unknown
 '
 end
 
 get '/customers/BohemianRhapsody' do
   '<title>User Bio</title>
+<h2>BohemianRhapsody</h2>
 <h3>Name</h3>
+Freddie
 <h3>Hobbies</h3>
+Singing, songwriting, and playing piano
 <h3>Email</h3>
+singer@queen.com
 '
 end
 
 get '/customers/Robotico' do
   '<title>User Bio</title>
+<h2>Robotico</h2>
 <h3>Name</h3>
+Robo
 <h3>Hobbies</h3>
+Usurping humans
 <h3>Email</h3>
+01010111101@1001010111100.10
 '
 end
 
 get '/customers/Nier' do
   '<title>User Bio</title>
+<h2>Nier</h2>
 <h3>Name</h3>
+2B
 <h3>Hobbies</h3>
+Killing, existential crises, not killing
 <h3>Email</h3>
+2B@android.net
 '
 end
 
 get '/customers/MnM' do
   '<title>User Bio</title>
+<h2>MnM</h2>
 <h3>Name</h3>
+Red
 <h3>Hobbies</h3>
+Not getting eaten
 <h3>Email</h3>
+red45379@mms.com
 '
 end
 
 get '/customers/The_Real_Slim_Shady_782' do
   '<title>User Bio</title>
+<h2>The_Real_Slim_Shady_782</h2>
 <h3>Name</h3>
+Generic Fan
 <h3>Hobbies</h3>
+Listening to rap, pretending to be able to rap, and bragging about rapping
 <h3>Email</h3>
+fan@fan.fan
 '
 end
 
 get '/customers/THE_LIGHT' do
   '<title>User Bio</title>
+<h2>THE_LIGHT</h2>
 <h3>Name</h3>
+Thomas
 <h3>Hobbies</h3>
+EnLIGHTening people
 <h3>Email</h3>
+Edison@dc.rules
 '
 end
 
 get '/customers/kMrIGlqQGYXU' do
   '<title>User Bio</title>
+<h2>kMrIGlqQGYXU</h2>
 <h3>Name</h3>
+Unknown
 <h3>Hobbies</h3>
+Having secure accounts
 <h3>Email</h3>
+Unknown
 '
 end
 
 get '/customers/Batman' do
   '<title>User Bio</title>
+<h2>Batman</h2>
 <h3>Name</h3>
+The Dark (K)Night
 <h3>Hobbies</h3>
+Fighting crime and training children to fight crime
 <h3>Email</h3>
+Bruce@wayne.inc
 '
 end
 
 get '/customers/MarshallMathers' do
   '<title>User Bio</title>
+<h2>MarshallMathers</h2>
 <h3>Name</h3>
+Marshall Mathers
 <h3>Hobbies</h3>
+Maintaining websites
 <h3>Email</h3>
+default@default-VirtualBox
 '
 end
 
 get '/customers/grassyKnoll' do
   '<title>User Bio</title>
+<h2>grassyKnoll</h2>
 <h3>Name</h3>
+Illuminati Tracker
 <h3>Hobbies</h3>
+Telling people they are wrong
 <h3>Email</h3>
+eminem@gmail.com
 '
 end
 
 get '/customers/donutsAreGr8' do
   '<title>User Bio</title>
+<h2>donutsAreGr8</h2>
 <h3>Name</h3>
+Foodie
 <h3>Hobbies</h3>
+Eating chocolate and bacon
 <h3>Email</h3>
+connoisseur@food.hu
 '
 end
 
 get '/customers/11' do
   '<title>User Bio</title>
+<h2>11</h2>
 <h3>Name</h3>
+Jane
 <h3>Hobbies</h3>
+Making friends, escaping labs, and eating waffles
 <h3>Email</h3>
+Subject11@Hawkins.gov
 '
 end
 
 get '/customers/RapGod' do
   '<title>User Bio</title>
+<h2>RapGod</h2>
 <h3>Name</h3>
+Unknown
 <h3>Hobbies</h3>
+Unknown
 <h3>Email</h3>
+Unknown
 '
 end
 
